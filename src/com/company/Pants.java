@@ -2,6 +2,18 @@ package com.company;
 
 public class Pants {
 
+    private String belt;
+    private String buckle;
+    private String bellbottoms;
+    private String corduroys;
+    private String leatherpants;
+    private String jeans;
+    private String Levis;
+    private String applebottoms;
+
+    public Pants() {
+    }
+
     public String getBelt() {
         return belt;
     }
@@ -66,17 +78,6 @@ public class Pants {
         this.applebottoms = applebottoms;
     }
 
-    private String belt;
-    private String buckle;
-    private String bellbottoms;
-    private String corduroys;
-    private String leatherpants;
-    private String jeans;
-    private String Levis;
-    private String applebottoms;
-
-    public Pants() {
-    }
 }
 
 
